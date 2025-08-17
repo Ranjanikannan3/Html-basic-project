@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking Form</title>
+    <style>
+        body{
+            background-image:url('C:/form image/OIP (4).jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size:cover ;
+        }
+    </style>
+</head>
+<body>
+       <h1><center><b>Ticket Booking Form</b></center></h1> 
+       <fieldset>
+           <legend><b>Select your Journey</b></legend>
+           <h2><b>Book Your Journey</b></h2>
+          <form>
+             <label><b>Name:</b></label>
+             <input type="text"  placeholder="Enter your Name"><br><br><br>
+             <label><b>Email ID :</b></label>
+             <input type="email" placeholder="Enter your email id"><br><br><br>
+             <label><b>Source(From):</b></label>
+             <input type="text" placeholder="Starting point">
+             <label><b>Destination(To) :</b></label>
+             <input type="text" placeholder="Destination"><br><br><br>
+             <label><b>Journey Date :</b></label>
+             <input type="text" placeholder="Journey date"><br><br><br>
+             <label><b>Tickets :</b></label>
+             <input type="number" placeholder="Number of tickets"><br><br><br>
+             <label><b>Class :</b></label>
+                <select>
+                   <option value="economy">Economy</option>
+                   <option value="business">Business</option>
+                   <option value="first">First</option>
+                </select><br><br>
+             </form>
+       </fieldset>
+     <input type="submit" value="Book Now">
+</body>
+</html>
